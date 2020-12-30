@@ -1,0 +1,32 @@
+test_LoginPage: #登录页面元素
+  user: ["xpath","//*[@id='app']/div/div[1]/form/div[1]/div/div/input"]
+  paw: ["xpath","//*[@id='app']/div/div[1]/form/div[2]/div/div/input"]
+  search: ['css selector','.el-button--small']
+
+
+GuanLi:
+  acount: ["xpath","//*[@id='app']/section/div/aside/div/ul/li[1]/div"]
+
+
+
+test_mukelogin:
+  lo: ["xpath","//*[@id='js-signin-btn']"]  #登录按钮
+  mukeuser: ["xpath","//*[@id='signup-form']/div[1]/input"]  #账号
+  mukepaw: ["xpath","//*[@id='signup-form']/div[2]/input"] #密码
+  mukebuttn: ["xpath","//*[@id='signup-form']/div[5]/input"] #登录按钮
+  mukemytest: ["xpath","//*[@id='login-area']/ul/li[4]/a/span"] #我的课程文字
+
+
+
+
+sous:
+  input: ['xpath','//*[@id="nav"]/div[3]/div[1]/input[1]']
+  souann: ['xpath','//*[@id="nav"]/div[3]/div[2]']
+  input2: [ 'xpath','//*[@id="main"]/div/div[1]/div/input' ]
+  souann2: [ 'xpath','//*[@id="main"]/div/div[1]/div/button' ]
+
+
+
+
+
+
